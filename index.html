@@ -51,6 +51,32 @@
             <td>7.5/10.0</td>
             <td><a href="https://www.youtube.com/watch?v=8kmLHwKH31M">Ver video en YouTube</a></td>
       </tr>
+
+<style>
+  .anuncio {
+    position: fixed;   /* se queda quieto aunque hagas scroll */
+    top: 200px;        /* distancia desde arriba */
+    width: 200px;      /* ancho del cuadro */
+    background: white;
+    border: 1px solid gray;
+  }
+  .izquierda { left: 10px; }   /* pegado al lado izquierdo */
+  .derecha   { right: 10px; }  /* pegado al lado derecho */
+  .anuncio video { width: 100%; }  /* el video ocupa todo el cuadro */
+</style>
+       
+         <a class="anuncio izquierda" href="https://google.com" target="_blank">
+    <video src="mi-video.mp4" autoplay muted loop></video>
+    <p>Oferta de verano</p>
+  </a>
+         <a class="anuncio izquierda" href="https://google.com" target="_blank">
+    <video src="mi-video.mp4" autoplay muted loop></video>
+    <p>Oferta de invierno</p>
+  </a>
+         <a class="anuncio izquierda" href="https://google.com" target="_blank">
+    <video src="mi-video.mp4" autoplay muted loop></video>
+    <p>Oferta de otoño</p>
+  </a>
             
       
 </html>
