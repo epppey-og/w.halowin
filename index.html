@@ -13,10 +13,12 @@
     text-align: left;       
     background-color: #f2f2f2;
 
+       }
+
          .columna {
     position: fixed;
     top: 100px;
-    width: 100px;
+    width: 200px;
     display: flex;            /* ordena los anuncios en fila... */
     flex-direction: column;   /* ...pero uno debajo de otro */
     gap: 14px;                /* hueco entre anuncios */
@@ -28,7 +30,7 @@
   .anuncio {
     display: block;
     background: white;
-    border: 1px solid gray;
+    border: 3px solid gray;
     border-radius: 8px;
     overflow: hidden;         /* recorta el video en las esquinas */
     text-decoration: none;    /* quita el subrayado del enlace */
@@ -61,13 +63,13 @@
             <td>psicosis</td>
             <td>El clásico de Hitchcock. Una parada en un motel que nunca olvidarás.</td>
             <td>9.0/10.0</td>
-            <td><a href="https://www.youtube.com/watch?v=mC2gOyWuSEY" target="_blank" rel="noopener noreferrer">Ver video en una pestaña nueva</a>
+            <td><a href="https://www.youtube.com/watch?v=mC2gOyWuSEY" target="_blank" rel="noopener noreferrer">Ver video en una pestaña nueva</a></td>
 
       </tr>
       <tr>
             <td>backrooms</td>
             <td>Pasillos amarillos infinitos y un zumbido constante. Si entras, no hay salida.</td>
-            <td>10.0/10.0</th>
+            <td>10.0/10.0</td>
             <td><a href="https://www.youtube.com/watch?v=0HjdiohVOik">Ver video en una pestaña nueva</a></td>
      </tr>
     <tr>
@@ -91,15 +93,19 @@
 
        <div class="columna izquierda">
           <a class="anuncio" href="https://www.youtube.com/watch?v=NemhyWVAY68" target="_blank">
-    <video src="gtavitrailer.mp4></video>
-    <p>ANUNCIO PRUEBA</p>
+    <video src="gtavitrailer.mp4" autoplay muted loop playsinline ></video>
+    <h3>ANUNCIO PRUEBA</h3>
+           <h5>Pincha aqui</h5>
   </a>
        </div>
 
        <div class= "columna derecha">
         <a class= "anuncio" href= "https://www.youtube.com/watch?v=NemhyWVAY68" target= "_blank" >
-         <video src= "nevergonnagiveyouup.mp4></video>
-         
+         <video src= "nevergonnagiveyouup.mp4" autoplay muted loop playsinline ></video>
+         <h3>ANUNCIO PRUEBA</h3>
+         <h5>Pincha aqui</h5>
+
+       </div>
         </a>
        
           </body>
